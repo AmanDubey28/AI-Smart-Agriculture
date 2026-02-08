@@ -94,7 +94,7 @@ with col2:
     st.header("2. Real-Time Irrigation")
     city = st.text_input("Enter your City Name", "London")
     
-    api_key = add86ebfa18b318ef8553eb86b8a83ff
+    api_key = ff693136f1d9a97f195bf7008361aaa1
     
     if st.button("Check Weather & Pump Status"):
         curr_temp, curr_hum, curr_desc = get_weather(city, api_key)
@@ -118,3 +118,4 @@ with col2:
 
 st.markdown("---")
 st.caption("Powered by TabNet (Explainable AI) & OpenWeather API. Based on the Integrated Crop Recommendation Framework.")
+
